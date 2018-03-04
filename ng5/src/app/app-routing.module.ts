@@ -9,7 +9,7 @@ const routes: Routes = [
 		component: HomeComponent
 	},
 	{
-		path: 'about',
+		path: 'about/:id',//that is a route parameter and you can create multiple of those to capture data
 		component: AboutComponent
 	}
 ];
